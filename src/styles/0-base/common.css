@@ -1,0 +1,68 @@
+body {
+    position: relative;
+    background: #FAFAFA;
+}
+
+p, span, h1, h2, h3, h4, h5, h6, a, b, i, em, cite, input, button, label {
+    color: #222;
+    font-family: "Poppins", sans-serif;
+    white-space: pre-wrap;
+    line-height: normal;
+}
+
+a, a:hover {
+    color: #222;
+    text-decoration: none;
+}
+
+input:not(input[type=checkbox]), button {
+    -webkit-appearance: none !important;
+}
+
+input:focus, button:focus {
+    border: none;
+    outline: none;
+}
+
+button {
+    padding: 0;
+    border: none;
+    background: none;
+}
+
+img {
+    object-fit: contain;
+}
+
+p {
+    margin: 1em 0;
+}
+
+pre {
+    margin: 0;
+    padding: 0;
+    color: #222;
+    font-family: "Helvetica", sans-serif;
+}
+
+ul {
+    display: flex;
+    flex-flow: row nowrap;
+    padding: 0;
+    list-style-type: none;
+}
+
+/* Bootstrap */
+.container-fluid {
+    display: flex;
+    flex-flow: column nowrap;
+    padding: 0;
+}
+
+.container-fluid-content {
+    flex: 1;
+}
+
+.row {
+    margin: 0;
+}

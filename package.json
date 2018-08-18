@@ -1,0 +1,46 @@
+{
+  "name": "ethsum",
+  "version": "0.1.0",
+  "description": "Simple Ethereum Address Checksum Validation Tool",
+  "private": true,
+  "dependencies": {
+    "bootstrap": "^4.1.2",
+    "immutability-helper": "^2.7.1",
+    "prop-types": "^15.6.2",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-icons": "^3.0.5",
+    "react-router": "^4.3.1",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "1.1.4",
+    "react-spinkit": "^3.0.0",
+    "sanitize.css": "^6.0.0",
+    "web3-utils": "^1.0.0-beta.35"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "lint": "eslint ./src",
+    "eject": "react-scripts eject"
+  },
+  "engines": {
+    "node": ">= 9.3.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/PaulRBerg/ethsum.git"
+  },
+  "keywords": [
+    "ethereum",
+    "ethereum-address",
+    "checksum",
+    "checksum-validator"
+  ],
+  "author": "Paul Berg <hello@paulrberg.com> (https://paulrberg.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PaulRBerg/ethsum/issues"
+  },
+  "homepage": "https://ethsum.netlify.com"
+}

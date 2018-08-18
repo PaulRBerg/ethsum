@@ -1,0 +1,35 @@
+
+.alert {
+  position: absolute;
+  width: 50%;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 0;
+  padding: 1rem 3rem;
+}
+
+.alert span, .alert button {
+  font-size: .9rem;
+}
+
+.alert span {
+  color: #666;
+}
+
+.alert button {
+  position: static;
+  height: 100%;
+}
+
+@media screen and (max-width: 992px) {
+  .alert span, .alert button {
+    font-size: .8rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .alert {
+    border-radius: 0;
+    width: 100%;
+  }
+}
