@@ -1,5 +1,6 @@
 /* eslint-disable no-mixed-spaces-and-tabs,indent */
 import React  from "react";
+import GithubCorner from "react-github-corner";
 import { ActionButton } from "components/modules";
 import { FaEthereum } from "react-icons/fa";
 
@@ -109,6 +110,8 @@ class Convert extends React.Component {
 
 		return (
 			<div className={"main-container"}>
+				<GithubCorner href={"https://github.com/PaulRBerg/ethsum"}
+				              bannerColor={palette.eth.gold}/>
 				<div className={"wrap-container"}>
 					<form className={"wrap-form"} onSubmit={this.onSubmit}>
 						<h1 className={"wrap-form-title"}>
