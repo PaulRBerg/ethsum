@@ -12,7 +12,7 @@ const textStyle = {
 class Whoops404 extends React.Component {
 
 	static propTypes = {
-		location: PropTypes.Function
+		location: PropTypes.func
 	};
 
 	render() {

@@ -1,29 +1,29 @@
 {
   "name": "ethsum",
-  "description": "Simple Ethereum Address Checksum Validation Tool",
-  "version": "0.1.0",
-  "author": "Paul Berg <hello@paulrberg.com> (https://paulrberg.com)",
+  "description": "Simple Ethereum address checksum validation tool",
+  "version": "0.2.0",
+  "author": {
+    "name": "Paul Razvan Berg",
+    "website": "https://paulrberg.com"
+  },
   "bugs": {
     "url": "https://github.com/PaulRBerg/ethsum/issues"
   },
   "dependencies": {
     "bootstrap": "^4.1.2",
     "github-fork-ribbon-css": "^0.2.1",
-    "immutability-helper": "^2.7.1",
+    "immutability-helper": "^3.0.2",
     "prop-types": "^15.6.2",
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
     "react-github-corner": "^2.3.0",
     "react-icons": "^3.0.5",
-    "react-router": "^4.3.1",
-    "react-router-dom": "^4.3.1",
-    "react-scripts": "1.1.4",
+    "react-router": "^5.1.2",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "3.4.1",
     "react-spinkit": "^3.0.0",
-    "sanitize.css": "^6.0.0",
+    "sanitize.css": "^11.0.0",
     "web3-utils": "^1.0.0-beta.35"
-  },
-  "engines": {
-    "node": ">= 9.3.0"
   },
   "homepage": "https://ethsum.netlify.com",
   "keywords": [
@@ -44,5 +44,17 @@
     "lint": "eslint ./src",
     "start": "react-scripts start",
     "test": "react-scripts test --env=jsdom"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
