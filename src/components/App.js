@@ -3,7 +3,7 @@ import {
 	Convert
 } from "./sections";
 
-import "styles/1-layouts/app.css";
+import "../styles/1-layouts/app.css";
 
 class App extends React.Component {
 

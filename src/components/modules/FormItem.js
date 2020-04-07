@@ -3,7 +3,7 @@ import React, { Component } from "react";
 import PropTypes from "prop-types";
 import * as fa from "react-icons/fa";
 
-import "styles/3-modules/form-item.css";
+import "../../styles/3-modules/form-item.css";
 
 class FormItem extends Component {
 

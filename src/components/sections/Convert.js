@@ -1,14 +1,14 @@
 /* eslint-disable no-mixed-spaces-and-tabs,indent */
 import React  from "react";
 import GithubCorner from "react-github-corner";
-import { ActionButton } from "components/modules";
+import { ActionButton } from "../../components/modules";
 import { FaEthereum } from "react-icons/fa";
 
-import palette from "styles/palette";
+import palette from "../../styles/palette";
 import update from "immutability-helper";
 import utils from "web3-utils";
 
-import "styles/2-sections/convert.css";
+import "../../styles/2-sections/convert.css";
 
 
 function isEmpty(obj) {

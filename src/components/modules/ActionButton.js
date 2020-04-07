@@ -2,7 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 import Spinner from "react-spinkit";
 
-import palette from "styles/palette";
+import palette from "../../styles/palette";
 
 const ActionButton = ({text, loading, style}) => (
 	<div className={"wrap-form-btn-container"} style={style ? style : {}}>

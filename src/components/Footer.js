@@ -1,6 +1,6 @@
 import React from "react";
 
-import "styles/1-layouts/footer.css";
+import "../styles/1-layouts/footer.css";
 
 class Footer extends React.Component {
 
